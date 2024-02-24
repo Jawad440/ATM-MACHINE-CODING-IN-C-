@@ -18,7 +18,7 @@ void createAccount();
 int main()
 {
 system("cls");
-cout<<"Hi! Welcome to Mr.Zamar's ATM Machine'"<<endl;
+cout<<"Hi! Welcome to UBL ATM Machine'"<<endl;
 cout<<endl;
 system("pause");
 start();
@@ -61,7 +61,7 @@ system("cls");
 cout<<"Enter Aount: ";
 cin>>Deposit;
 Balance+=Deposit;
-cout<<"TAmount Deposited!! "<<endl;
+cout<<Deposit<<" Amount Deposited!! "<<endl;
 system("pause");
 system("cls");
 printMainMenu();
